@@ -1,0 +1,22 @@
+<resources>
+    <!-- Custom Text Appearance for Navigation Menu Items -->
+    <style name="NavigationViewTextStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+
+    <!-- Custom Style for NavigationView -->
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+        <item name="itemTextAppearance">@style/NavigationViewTextStyle</item>
+        <item name="itemIconSize">28dp</item>
+        <item name="itemTextColor">@color/light_blue</item>
+        <item name="itemIconTint">@color/light_blue</item>
+    </style>
+
+    <style name="RoundedCorner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+
+</resources>

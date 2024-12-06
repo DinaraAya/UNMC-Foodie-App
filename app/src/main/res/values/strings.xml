@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="welcome_message_sign_in">Let\'s get you signed in!</string>
+    <string name="welcome_message_register">Let\'s get you registered!</string>
+    <string name="sign_in_button_text">Sign in</string>
+    <string name="register">Register</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="Login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="menu_item_home">Home / Dashboard</string>
+    <string name="menu_item_op_hours">Operating Hours</string>
+    <string name="menu_item_offers">Offers &amp; Discounts</string>
+    <string name="menu_item_order_history">Order History</string>
+    <string name="menu_item_faqs">FAQs</string>
+    <string name="menu_item_policy">T&amp;C / Privacy Policy</string>
+    <string name="menu_item_help_center">Help Center</string>
+    <string name="menu_item_logout">Log out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tc_header">Terms &amp; Conditions</string>
+    <string name="hc_header">Help Center</string>
+    <string name="faqs_header">FAQs</string>
+    <string name="indoor_cafeteria">Indoor cafeteria (Block H1)</string>
+    <string name="outdoor_cafeteria">Outdoor cafeteria (Block H2)</string>
+
+
+    <string name="tc_content">
+        <![CDATA[
+            <h5>UNMC FOOD HUB TERMS AND CONDITIONS OF SERVICE</h5>
+            <br/>
+            <b>1. Acceptance of Terms</b><br/>
+            By using the App, you acknowledge that you have read, understood, and agree to comply with these Terms and Conditions, as well as our Privacy Policy. We reserve the right to modify these terms at any time. Your continued use of the App following any changes indicates your acceptance of the new terms.
+            <br/><br/>
+            <b>2. User Account</b><br/>
+            • <b>Registration:</b> To use certain features of the App, you must create a user account. You agree to provide accurate, complete, and current information during registration.<br/>
+            • <b>Account Security:</b> You are responsible for maintaining the confidentiality of your login credentials and are responsible for all activities under your account. Notify us immediately if you suspect any unauthorized access or use of your account.
+            <br/><br/>
+            <b>3. App Usage</b><br/>
+            • <b>Eligibility:</b> The App is available to current students and staff of the university. You must be at least 18 years old to use the App, or have parental/guardian consent if younger.<br/>
+            • <b>Prohibited Uses:</b> You agree not to misuse the App. This includes but is not limited to:<br/>
+            • Engaging in illegal activities through the App.<br/>
+            • Attempting to access restricted features or areas of the App.<br/>
+            • Disrupting or attempting to interfere with the functionality of the App or its servers.
+            <br/><br/>
+            <b>4. Orders and Payments</b><br/>
+            • <b>Order Process:</b> By placing an order through the App, you agree to pay the indicated price for the selected items. All orders are subject to availability.<br/>
+            • <b>Payment Methods:</b> We accept various payment methods, including credit/debit cards and e-wallets. You must ensure sufficient funds are available to complete your transaction.<br/>
+            • <b>Refund Policy:</b> Once a meal preparation has started, cancellations may not be allowed. Refunds will only be issued for valid reasons such as technical errors, unavailability of items, or cancellations before meal preparation begins.<br/>
+            • <b>Batch Orders:</b> For group or batch orders, the responsibility for pickup lies with the individual placing the order.
+            <br/><br/>
+            <b>5. Meal Availability and Timeliness</b><br/>
+            The cafeteria strives to ensure that all meals are prepared and ready at the scheduled pickup times. However, there may be occasional delays due to high demand, unforeseen circumstances, or inventory shortages. In such cases, you will be notified promptly. The App will not be held liable for any delay in meal preparation or pickup.
+            <br/><br/>
+            <b>6. Health and Safety</b><br/>
+            UNMC FoodHub aims to promote safer dining experiences. However, users are still responsible for adhering to general health and safety guidelines when using the App or dining in the cafeteria. The App is not liable for any health-related incidents, including illness or injury resulting from food consumed.
+            <br/><br/>
+            <b>7. Privacy and Data Security</b><br/>
+            We take your privacy seriously. By using the App, you consent to the collection and processing of your personal data, including but not limited to order history, preferences, and payment information. Please review our Privacy Policy for more details on how your information is collected, stored, and used.
+        ]]>
+    </string>
+
+    <string name="help_support">
+        <![CDATA[
+            <p>If you need assistance or have questions, please follow the steps below to reach out to us. We aim to provide timely and effective support to enhance your experience with Foodie.</p>
+
+            <h2>1. General Inquiries</h2>
+            <p>For questions about the app, features, or services, please email our support team at:<br/>
+            <a href="mailto:support@foodieapp.com">support@foodieapp.com</a><br/>
+            We typically respond within 24 hours.</p>
+
+            <h2>2. Technical Support</h2>
+            <p>If you are experiencing issues with the app, such as login problems or error messages, please contact our technical support team:<br/>
+            <a href="mailto:techsupport@foodieapp.com">techsupport@foodieapp.com</a><br/>
+            Include a brief description of the issue and any screenshots if applicable, so we can assist you better.</p>
+
+            <h2>3. Feedback & Suggestions</h2>
+            <p>We love hearing from our users! Share your feedback or suggestions to help us improve:<br/>
+            <a href="mailto:feedback@foodieapp.com">feedback@foodieapp.com</a><br/>
+            Your input is valuable and will be taken into consideration for future updates.</p>
+
+            <h2>4. Frequently Asked Questions (FAQs)</h2>
+            <p>Check out our FAQs for quick answers to common questions:<br/>
+            <a href="https://www.foodieapp.com/faqs" target="_blank">FAQs</a><br/>
+            This section covers topics like account setup, payment methods, and more.</p>
+
+            <h2>5. Live Chat Support</h2>
+            <p>For immediate assistance, use our live chat feature to connect with a support representative:<br/>
+            <a href="https://www.foodieapp.com/live-chat" target="_blank">Live Chat</a><br/>
+            Our team is available during business hours to assist you.</p>
+
+            <h2>6. Support Center</h2>
+            <p>Visit our Support Center for additional resources, guides, and troubleshooting tips:<br/>
+            <a href="https://www.foodieapp.com/support" target="_blank">Support Center</a><br/>
+            Here, you can find tutorials and articles to help you navigate the app.</p>
+
+            <h2>7. Stay Connected</h2>
+            <p>Follow us on social media for the latest updates, promotions, and more:<br/>
+            <a href="https://www.facebook.com/foodieapp" target="_blank">Facebook</a><br/>
+            <a href="https://www.twitter.com/foodieapp" target="_blank">Twitter</a><br/>
+            <a href="https://www.instagram.com/foodieapp" target="_blank">Instagram</a></p>
+
+            <p><strong>Thank You for Choosing Foodie!</strong><br/>
+            We appreciate your support and look forward to serving you better!</p>
+        ]]>
+    </string>
+
+    <string name="faq_content">
+     <![CDATA[
+     <html>
+     <body>
+         <p><b>Q: What is the UNMC FoodHub app?</b><br/>
+         A: UNMC FoodHub is a mobile application designed specifically for our university&#39;s cafeteria. It allows students and staff to pre-order meals and schedule pickups, helping them avoid long wait times and crowded spaces during peak hours.</p>
+
+         <p><b>Q: How does the app work?</b><br/>
+         A: Simply browse the cafeteria menu through the app, select your meal, choose a pickup time, and place your order. You&#39;ll receive a notification when your meal is ready for collection. You can also view real-time updates on how crowded the cafeteria is before heading there.</p>
+
+         <p><b>Q: Can I cancel or modify my order after placing it?</b><br/>
+         A: Yes, you can modify or cancel your order within a specific time window. However, once the meal preparation has started, cancellations or changes may not be possible.</p>
+
+         <p><b>Q: How do I pay for my meal?</b><br/>
+         A: The app accepts secure payments through various methods such as credit/debit cards, e-wallets, or cash upon pickup. You can add your preferred payment method during registration.</p>
+
+         <p><b>Q: What if I miss my pickup time?</b><br/>
+         A: If you miss your scheduled pickup time, your order will be held for a limited period. However, food quality may be affected, and after a certain period, the order may be canceled with no refund depending on the cafeteria&#39;s policy.</p>
+     </body>
+     </html>
+     ]]>
+</string>
+
+
+</resources>

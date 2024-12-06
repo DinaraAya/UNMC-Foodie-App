@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/categoryName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:text="Category Name"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/faq_tc_help_color"
+    android:textStyle="bold" />

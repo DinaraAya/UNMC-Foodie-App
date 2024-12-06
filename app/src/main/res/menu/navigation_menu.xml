@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/home"
+        android:title="@string/menu_item_home" />
+
+    <item
+        android:id="@+id/nav_track_order"
+        android:icon="@drawable/locate_svgrepo_com"
+        android:title="Track Order" />
+
+    <item
+        android:id="@+id/nav_order_history"
+        android:icon="@drawable/file"
+        android:title="@string/menu_item_order_history" />
+
+    <item
+        android:id="@+id/nav_faqs"
+        android:icon="@drawable/question"
+        android:title="@string/menu_item_faqs" />
+
+    <item
+        android:id="@+id/nav_policy"
+        android:icon="@drawable/insurance"
+        android:title="@string/menu_item_policy" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/customer_service"
+        android:title="@string/menu_item_help_center" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/menu_item_logout"/>
+
+</menu>

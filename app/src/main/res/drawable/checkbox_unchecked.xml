@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/highlighted_orange_color" /> <!-- Set your desired color for checked state -->
+    <corners android:radius="4dp" /> <!-- Customize corner radius if needed -->
+    <size android:width="20dp" android:height="20dp" /> <!-- Set the size of the checkbox -->
+</shape>

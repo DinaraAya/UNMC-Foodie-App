@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Fill color -->
+            <solid android:color="#FFFFFF"/> <!-- Example: Orange fill color -->
+
+            <!-- Corner radius -->
+            <corners android:radius="12dp"/> <!-- Rounded corners -->
+
+            <!-- Stroke color and width -->
+            <stroke
+                android:width="2dp"
+                android:color="@color/highlighted_orange_color"/> <!-- Example: Red stroke color -->
+        </shape>
+    </item>
+</selector>
