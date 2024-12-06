@@ -30,7 +30,7 @@ class MenuFragmentTest {
         // Assuming a category item is available, scroll to it and check it's displayed
         onView(withId(R.id.recyclerViewMenu))
             .perform(scrollTo())
-            .check(matches(hasDescendant(withText("Category Name")))) // Replace with actual category name
+            .check(matches(hasDescendant(withText("Category Name"))))
     }
 
     @Test
@@ -38,8 +38,7 @@ class MenuFragmentTest {
         // Launch MenuFragment in a container
         val scenario = launchFragmentInContainer<MenuFragment>(themeResId = R.style.Theme_Foodie)
 
-        // Assuming that the add button for a menu item is present, click it
-        onView(withId(R.id.btnAdd)) // Replace `add_button` with the actual ID in your layout
+        onView(withId(R.id.btnAdd))
             .perform(click())
 
         // Check that the cart summary is updated
@@ -80,8 +79,8 @@ class MenuFragmentTest {
             Navigation.setViewNavController(fragment.requireView(), mockNavController)
         }
 
-        // Assuming there are items in the cart
-        onView(withId(R.id.btnAdd)) // Replace `add_button` with the actual ID
+
+        onView(withId(R.id.btnAdd))
             .perform(click())
 
         // Click on the cart layout container to navigate to CheckoutFragment
@@ -91,7 +90,7 @@ class MenuFragmentTest {
         // Verify that navigation to the CheckoutFragment was triggered
         Mockito.verify(mockNavController).navigate(
             MenuFragmentDirections.actionMenuFragmentToCheckoutFragment(
-                cartData = arrayOf(), // Replace with mock data if necessary
+                cartData = arrayOf(),
                 stallId = "",
                 stallName = ""
             )

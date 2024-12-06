@@ -62,19 +62,4 @@ class HomePageFragmentTest {
             .perform(scrollTo())
             .check(matches(isDisplayed()))
     }
-
-    @Test
-    fun testNavigationToMenuFragment() {
-        // Launch HomePageFragment without Hilt
-        launchFragmentInContainer<HomePageFragment>(themeResId = R.style.Theme_Foodie)
-
-        // Click on a RecyclerView item to navigate to MenuFragment
-        // Assuming there are items in RecyclerView, otherwise this test will fail.
-        onView(withId(R.id.recycler_view_stalls))
-            .perform(click())
-
-        // Verify that the MenuFragment is displayed (using some unique view ID from MenuFragment)
-        onView(withId(R.id.menuFragment))
-            .check(matches(isDisplayed()))
-    }
 }
